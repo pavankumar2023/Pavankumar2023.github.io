@@ -11,10 +11,11 @@
   <link rel="stylesheet" href="index.css">
 </head>
 <body>
+    
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg bg-dark navbar-dark sticky-top">
     <div class="container">
-      <a class="navbar-brand" href="#">Pavan Kumar</a>
+      <a class="navbar-brand" href="index.html">Pavan Kumar</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -27,6 +28,9 @@
             <a class="nav-link" href="#projects">Projects</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link" href="#internships">Internships</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="#about">About</a>
           </li>
           <li class="nav-item">
@@ -37,83 +41,128 @@
     </div>
   </nav>
 
-  <!-- Hero Section -->
-  <section id="home" class="hero min-h-screen bg-cover bg-center text-white flex items-center" style="background-image: url('hero-bg.jpg');">
+ <!-- Hero Section -->
+<section id="home" class="hero min-h-screen bg-cover bg-center text-white flex items-center" style="background-color: rgb(2, 3, 3);">
     <div class="container text-center">
-      <h1 class="text-5xl font-bold">Pavan Kumar</h1>
-      <p class="lead mt-4">Full Stack Developer | Cybersecurity Analyst | Blockchain Enthusiast</p>
-      <a href="#projects" class="btn btn-primary mt-4">View My Work</a>
+        <!-- User Photo -->
+        <img src="./Assests/photo.jpg" alt="Pavan Kumar" class="rounded-circle mb-4 zoom-image" style="width: 150px; height: 150px;">
+
+        <h1 class="text-5xl font-bold">Pavan Kumar</h1>
+        <p class="lead mt-4">Java Full Stack Developer | Frontend & Backend Developer</p>
+        <a href="#projects" class="btn btn-primary mt-4">View My Work</a>
+        <a href="mailto:Pavanpnk10@gmail.com" class="btn btn-secondary mt-4 blinking">Hire Me</a>
     </div>
-  </section>
+</section>
+
 
   <!-- Projects Section -->
   <section id="projects" class="py-5 bg-light">
     <div class="container">
       <h2 class="text-center text-3xl font-bold mb-4">My Projects</h2>
       <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-4 d-flex">
           <div class="card mb-4 shadow-sm">
-            <img src="project1.jpg" class="card-img-top" alt="Project 1">
-            <div class="card-body">
-              <h5 class="card-title">Real-Time Chat App</h5>
-              <p class="card-text">A real-time chat application using MERN stack and WebSockets.</p>
-              <a href="#" class="btn btn-outline-primary">View on GitHub</a>
+            <img src="./Assests/Home page 02.png" class="card-img-top" alt="Project 1">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">BoAt Application</h5>
+              <p class="card-text">I developed a boat e-commerce application using HTML, CSS, and JavaScript, featuring user login/signup, a product page, and a fully functional cart for seamless user interaction.</p>
+              <a href="https://pavankumar2023.github.io/BoatApplication/" target="_blank" class="btn btn-outline-primary mt-auto">View on GitHub</a>
             </div>
           </div>
         </div>
-        <div class="col-md-4">
+      
+        <div class="col-md-4 d-flex">
           <div class="card mb-4 shadow-sm">
-            <img src="project2.jpg" class="card-img-top" alt="Project 2">
-            <div class="card-body">
-              <h5 class="card-title">eCommerce Platform</h5>
-              <p class="card-text">A full-stack eCommerce platform with payment integration.</p>
-              <a href="#" class="btn btn-outline-primary">View on GitHub</a>
+            <img src="./Assests/todolist.png" class="card-img-top" alt="Project 2">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">To-Do List Application</h5>
+              <p class="card-text">I developed a full-stack To-Do List application using the MERN stack, implementing full CRUD operations for task management.</p>
+              <a href="#" class="btn btn-outline-primary mt-auto">View on GitHub</a>
             </div>
           </div>
         </div>
-        <div class="col-md-4">
+
+        <div class="col-md-4 d-flex">
           <div class="card mb-4 shadow-sm">
-            <img src="project3.jpg" class="card-img-top" alt="Project 3">
-            <div class="card-body">
-              <h5 class="card-title">Portfolio Website</h5>
-              <p class="card-text">A modern portfolio website built with HTML, CSS, and Bootstrap.</p>
-              <a href="#" class="btn btn-outline-primary">View on GitHub</a>
+            <img src="./Assests/Blokchain photo.png" class="card-img-top" alt="Project 3">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Blockchain Certificate Verification & Validation</h5>
+              <p class="card-text">Using Python and SHA algorithms, ensuring secure, tamper-proof digital credential authentication.</p>
+              <a href="#" class="btn btn-outline-primary mt-auto">View on GitHub</a>
             </div>
           </div>
         </div>
+      </div>      
+    </div>
+  </section>
+
+<!-- Internships Section -->
+<section id="internships" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center text-3xl font-bold mb-4">My Internships</h2>
+      <div class="row">
+        <div class="col-md-4 d-flex">
+          <div class="card mb-4 shadow-sm">
+            <img src="./Assests/pexels-pixabay-60504.jpg" class="card-img-top" alt="Internship 2">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Cyber Security Intern</h5>
+              <p class="card-text">Senselearner Technologies Pvt Ltd, Assisted in developing security protocols and monitoring for potential breaches.</p>
+              <a href="https://www.linkedin.com/in/pavankumard10/details/experience/" target="_blank" class="btn btn-outline-primary mt-auto">View Details</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 d-flex">
+            <div class="card mb-4 shadow-sm">
+              <img src="https://images.unsplash.com/photo-1535378917042-10a22c95931a?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8bWFjaGluZSUyMGxlYXJuaW5nfGVufDB8fDB8fHww" class="card-img-top" alt="Internship 1">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Machine Learning & Data Science with Python Intern</h5>
+                <p class="card-text">PHN Technology Pvt Ltd, Interned remotely gaining practical experience in machine learning and data science methodologies using Python.</p>
+                <a href="https://www.linkedin.com/in/pavankumard10/details/experience/" target="_blank" class="btn btn-outline-primary mt-auto">View Details</a>
+              </div>
+            </div>
+          </div>
+  
+        <!-- Add more internship cards as needed -->
+        
       </div>
     </div>
   </section>
 
   <!-- About Section -->
-  <section id="about" class="py-5">
+  <section id="about" class="py-5" style="background-color: #020303;">
     <div class="container text-center">
       <h2 class="text-3xl font-bold mb-4">About Me</h2>
       <div class="flex justify-center items-center">
-        <img src="profile.jpg" class="rounded-full w-32 h-32 shadow-md" alt="Pavan Kumar">
-        <p class="text-lg mt-4 max-w-lg mx-auto">I’m a passionate full-stack developer and cybersecurity analyst, with expertise in MERN stack and blockchain technologies. I thrive on solving complex challenges and building responsive, user-friendly web applications.</p>
+        <img src="#" class="rounded-full w-32 h-32 shadow-md" alt="Pavan Kumar">
+        <p class="text-lg mt-4 max-w-lg mx-auto">I am a dedicated Java Full Stack Developer and Cybersecurity Analyst with a strong expertise in Front-end & Back-end technologies and blockchain technologies. My passion lies in solving complex challenges and creating responsive, user-friendly web applications that deliver exceptional user experiences. With a commitment to continuous learning and innovation, I strive to stay at the forefront of emerging technologies to develop robust solutions that meet the evolving needs of users.</p>
       </div>
     </div>
   </section>
 
-  <!-- Contact Section -->
-  <section id="contact" class="py-5 bg-dark text-white">
+<!-- Contact Section -->
+<section id="contact" class="py-5 ">
     <div class="container">
-      <h2 class="text-center text-3xl font-bold mb-4">Contact Me</h2>
-      <form action="submit.php" method="post" class="max-w-lg mx-auto">
-        <div class="mb-3">
-          <input type="text" class="form-control" name="name" placeholder="Your Name" required>
-        </div>
-        <div class="mb-3">
-          <input type="email" class="form-control" name="email" placeholder="Your Email" required>
-        </div>
-        <div class="mb-3">
-          <textarea class="form-control" name="message" placeholder="Your Message" rows="5" required></textarea>
-        </div>
-        <button type="submit" class="btn btn-primary w-100">Send Message</button>
-      </form>
+        <h2 class="text-center text-3xl font-bold mb-4">Contact Me</h2>
+        <form action="submit.php" method="post" class="max-w-lg mx-auto">
+            <div class="mb-3">
+                <input type="text" class="form-control" name="name" placeholder="Your Name" required style="max-width: 400px; margin: 0 auto;">
+            </div>
+            <div class="mb-3">
+                <input type="email" class="form-control" name="email" placeholder="Your Email" required style="max-width: 400px; margin: 0 auto;">
+            </div>
+            <div class="mb-3">
+                <textarea class="form-control" name="message" placeholder="Your Message" rows="5" required style="max-width: 400px; margin: 0 auto;"></textarea>
+            </div>
+            <div class="text-center">
+                <button type="submit" class="btn btn-primary" style="max-width: 400px; width: 100%; ">Send Message</button>
+            </div>
+        </form>
     </div>
-  </section>
+</section>
+
+
+
 
   <!-- Footer -->
   <footer class="text-center py-3 bg-dark text-white">

@@ -8,46 +8,71 @@ body {
   
   /* Hero Section */
   .hero {
+    
     height: 100vh;
     background-position: center;
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
+
   }
   
   .hero h1 {
     font-size: 4rem;
     font-weight: 700;
+    color: rgb(208, 208, 227);
     text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+
   }
   
   .hero p {
+    color: rgb(208, 208, 227);
+
     font-size: 1.5rem;
     margin-top: 15px;
     font-weight: 300;
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.6);
   }
+  /* Zoom Effect for the Image */
+.zoom-image {
+    transition: transform 0.3s ease; /* Smooth transition for the zoom effect */
+}
+
+.zoom-image:hover {
+    transform: scale(1.1); /* Scale the image to 110% on hover */
+}
   
-  .hero .btn {
+.hero .btn{
     margin-top: 25px;
-    padding: 12px 30px;
+    padding: 12px 20px;
     font-size: 1.2rem;
     border-radius: 30px;
     transition: all 0.3s ease;
+    color: black;
+    background-color: rgb(42, 183, 199);
+}
+
+.hero .btn:hover {
+    background-color: #99b016;
+  }
+.blinking {
+    animation: blink-animation 1s steps(5, start) infinite;
   }
   
-  .hero .btn:hover {
-    background-color: #17a2b8;
-    color: #fff;
+  @keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
   }
+  
   
   /* Navbar Styles */
-  .navbar {
+.navbar {
     background-color: #343a40;
   }
   
-  .navbar-brand {
+.navbar-brand {
     font-size: 1.8rem;
     font-weight: 600;
     color: #ffffff !important;
@@ -70,7 +95,9 @@ body {
   .nav-link:hover {
     color: #17a2b8 !important;
   }
-  
+  .container{
+    color: black;
+  }
   /* Project Section */
   #projects {
     background-color: #f8f9fa;
@@ -107,6 +134,79 @@ body {
     object-fit: cover;
     border-bottom: 1px solid #ddd;
   }
+
+
+  /* Internships Section Styles */
+#internships {
+    padding: 3rem 0; /* Vertical padding */
+    background-color: #f8f9fa; /* Light background */
+  }
+  
+  #internships h2 {
+    text-align: center;
+    font-size: 2rem; /* Adjust the font size */
+    font-weight: bold; /* Make the title bold */
+    margin-bottom: 2rem; /* Space below the title */
+  }
+  
+  /* Card Styles for Internships */
+  #internships .card {
+    border: 1px solid #ddd; /* Border around the card */
+    border-radius: 0.5rem; /* Rounded corners */
+    transition: transform 0.2s; /* Smooth transition for hover effect */
+  }
+  
+  #internships .card:hover {
+    transform: scale(1.05); /* Slightly enlarge card on hover */
+  }
+  
+  #internships .card-img-top {
+    border-top-left-radius: 0.5rem; /* Round top corners */
+    border-top-right-radius: 0.5rem; /* Round top corners */
+  }
+  
+  #internships .card-body {
+    padding: 1rem; /* Padding inside the card */
+  }
+  
+  #internships .card-title {
+    font-size: 1.25rem; /* Title font size */
+    font-weight: bold; /* Bold title */
+  }
+  
+  #internships .card-text {
+    margin: 0.5rem 0; /* Margin around text */
+    flex-grow: 1; /* Ensures button stays at the bottom */
+  }
+  
+  /* Button Styles */
+  #internships .btn {
+    display: inline-block; /* Display inline */
+    font-weight: 500; /* Font weight */
+    color: #007bff; /* Text color */
+    text-decoration: none; /* No underline */
+    border: 1px solid transparent; /* Border */
+    border-radius: 0.25rem; /* Rounded corners */
+    padding: 0.375rem 0.75rem; /* Padding */
+  }
+  
+  #internships .btn-outline-primary {
+    color: #007bff; /* Outline color */
+    border-color: #007bff; /* Border color */
+  }
+  
+  #internships .btn-outline-primary:hover {
+    background-color: #007bff; /* Background color on hover */
+    color: #fff; /* Text color on hover */
+  }
+  
+  /* Responsive Styles for Internships */
+  @media (max-width: 768px) {
+    #internships .col-md-4 {
+      flex: 0 0 100%; /* Stack cards on small screens */
+      max-width: 100%; /* Full width */
+    }
+  }
   
   /* About Section */
   #about {
@@ -117,14 +217,14 @@ body {
     font-size: 2.5rem;
     font-weight: 700;
     margin-bottom: 30px;
-    color: #343a40;
+    color: white;
   }
   
   #about p {
     font-size: 1.1rem;
     line-height: 1.8;
     margin-top: 20px;
-    color: #555;
+    color: white;
   }
   
   #about img {
@@ -137,7 +237,7 @@ body {
   
   /* Contact Section */
   #contact {
-    background-color: #343a40;
+    background-color: #0cd4ef;
     color: white;
     padding: 60px 0;
   }
@@ -146,30 +246,25 @@ body {
     font-size: 2.5rem;
     font-weight: 700;
     margin-bottom: 50px;
+    color: rgb(252, 251, 251);
   }
   
-  .form-control {
-    border-radius: 5px;
-    padding: 15px;
-    font-size: 1.1rem;
-  }
+.form-control {
+    max-width: 400px; /* Set a maximum width for larger screens */
+    margin: 0 auto; /* Center align */
+}
+
+.btn {
+    max-width: 400px; /* Set maximum width for the button */
+    width: 100%; /* Maintain 100% width to fill its container */
+    margin: 0 auto; /* Center align */
+}
   
-  .btn-primary {
-    background-color: #17a2b8;
-    border: none;
-    padding: 10px 20px;
-    font-size: 1.2rem;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-  }
   
-  .btn-primary:hover {
-    background-color: #138496;
-  }
   
   /* Footer */
   footer {
-    background-color: #343a40;
+    background-color: #436486;
     color: #ffffff;
     padding: 15px 0;
     text-align: center;
