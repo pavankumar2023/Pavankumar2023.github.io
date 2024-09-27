@@ -210,25 +210,25 @@ body {
   }
   
   /* About Section */
-  .about {
+  #about {
     padding: 60px 0;
   } 
   
-  .about h2 {
+  #about h2 {
     font-size: 2.5rem;
     font-weight: 700;
     margin-bottom: 30px;
     color: white;
   }
   
-  .about p {
+  #about p {
     font-size: 1.1rem;
     line-height: 1.8;
     margin-top: 20px;
     color: white;
   }
   
-  .about img {
+  #about img {
     border-radius: 50%;
     width: 150px;
     height: 150px;
@@ -237,13 +237,13 @@ body {
   }
   
   /* Contact Section */
-  .contact {
+  #contact {
     background-color: #0cd4ef;
     color: white;
     padding: 60px 0;
   }
   
-  .contact h2 {
+  #contact h2 {
     font-size: 2.5rem;
     font-weight: 700;
     margin-bottom: 50px;
