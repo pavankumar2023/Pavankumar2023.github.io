@@ -1,0 +1,138 @@
+/* General Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin: 0;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+  }
+  
+  /* About Section */
+  .about {
+    display: flex;
+    padding: 50px;
+    background-color: white;
+    align-items: center;
+  }
+  
+  .profile-img {
+    border-radius: 50%;
+    margin-right: 30px;
+    width: 150px;
+    height: 150px;
+  }
+  
+  .about-content {
+    max-width: 600px;
+  }
+  
+  .about h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .about p {
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  /* Projects Section */
+  .projects {
+    padding: 50px;
+    background-color: #f9f9f9;
+  }
+  
+  .projects h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .project-card {
+    background: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+  }
+  
+  .project-card h3 {
+    margin: 0;
+  }
+  
+  .project-card p {
+    margin-top: 10px;
+  }
+  
+  .project-card a {
+    color: #3498db;
+    text-decoration: none;
+  }
+  
+  /* Clients Section */
+  .clients {
+    padding: 50px;
+    background-color: white;
+    text-align: center;
+  }
+  
+  .client-logo img {
+    width: 150px;
+    margin-bottom: 20px;
+  }
+  
+  /* Contact Section */
+  .contact {
+    padding: 50px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .contact form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .contact input, .contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .contact button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .contact button:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #
+  

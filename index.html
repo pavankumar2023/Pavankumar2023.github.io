@@ -1,12 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Pavan Kumar's Portfolio</title>
+  <link rel="stylesheet" href="index.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Hello World </h1>
-    <a href="https://pavankumar2023.github.io/JavascriptAssignment" >Assignments</a>
+  <!-- Hero Section -->
+  <header class="hero">
+    <h1>Pavan Kumar</h1>
+    <p>Full Stack Developer | Cybersecurity Analyst | Blockchain Enthusiast</p>
+  </header>
+
+  <!-- About Section -->
+  <section class="about">
+    <img src="profile.jpg" alt="Pavan Kumar" class="profile-img">
+    <div class="about-content">
+      <h2>About Me</h2>
+      <p>I'm a full-stack developer passionate about building web applications, working with the MERN stack, and solving cybersecurity challenges. My expertise spans from backend services to creating responsive, modern frontends.</p>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="projects">
+    <h2>My Projects</h2>
+    <div class="project-card">
+      <h3>Real-Time Chat App</h3>
+      <p>A real-time chat application using MERN stack and WebSockets. <a href="#">View on GitHub</a></p>
+    </div>
+    <div class="project-card">
+      <h3>eCommerce Platform</h3>
+      <p>Full-stack eCommerce platform with payment integration. <a href="#">View on GitHub</a></p>
+    </div>
+  </section>
+
+  <!-- Clients Section -->
+  <section class="clients">
+    <h2>Client Work</h2>
+    <div class="client-logo">
+      <img src="client-logo.png" alt="Client Name">
+      <p>Developed a scalable eCommerce platform for Client Name.</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact">
+    <h2>Contact Me</h2>
+    <form action="submit.php" method="post">
+      <input type="text" name="name" placeholder="Your Name">
+      <input type="email" name="email" placeholder="Your Email">
+      <textarea name="message" placeholder="Your Message"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Pavan Kumar. All rights reserved.</p>
+  </footer>
 </body>
 </html>
