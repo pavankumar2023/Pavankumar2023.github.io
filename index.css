@@ -204,11 +204,7 @@ body {
     }
   }
   
-<<<<<<< HEAD
-  #about {
-=======
 #about {
->>>>>>> d0a88cde240d152ff399859763691d2ab4f7ebd4
     background-color: #020303;
     padding: 3rem 0;
     color: #ffffff;
@@ -223,19 +219,13 @@ body {
     color: #ffffff;
   }
   
-<<<<<<< HEAD
   /* Profile Image Styling */
-=======
->>>>>>> d0a88cde240d152ff399859763691d2ab4f7ebd4
   #about img {
     width: 10rem;
     height: 10rem;
     border-radius: 50%;
-<<<<<<< HEAD
     border: 4px solid #00bcd4; /* Primary color */
-=======
     border: 4px solid #00bcd4; 
->>>>>>> d0a88cde240d152ff399859763691d2ab4f7ebd4
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
     transition: transform 0.5s ease;
     position: relative;
@@ -253,10 +243,7 @@ body {
     animation: pulse 1.5s infinite;
   }
   
-<<<<<<< HEAD
-  /* Animation for the pulse effect around the image */
-=======
->>>>>>> d0a88cde240d152ff399859763691d2ab4f7ebd4
+
   @keyframes pulse {
     0% {
       transform: scale(1);
@@ -270,15 +257,12 @@ body {
   
   /* Text Styling */
   #about p {
-<<<<<<< HEAD
     font-size: 1.125rem; /* Text-lg equivalent */
     line-height: 1.75rem;
     color: #cccccc; /* Lighter text color for contrast */
-=======
-    font-size: 1.125rem; /
+    font-size: 1.125rem; 
     line-height: 1.75rem;
     color: #cccccc; 
->>>>>>> d0a88cde240d152ff399859763691d2ab4f7ebd4
     max-width: 35rem;
     margin: 1rem auto;
   }
@@ -287,16 +271,13 @@ body {
     margin-bottom: 1.5rem;
   }
   
-<<<<<<< HEAD
   /* Button Styling */
   #about a {
     display: inline-block;
-    background-color: #00bcd4; /* Primary button color */
-=======
+    background-color: #00bcd4; 
   #about a {
     display: inline-block;
     background-color: #00bcd4;
->>>>>>> d0a88cde240d152ff399859763691d2ab4f7ebd4
     color: #ffffff;
     padding: 0.75rem 2rem;
     border-radius: 9999px;
@@ -306,16 +287,13 @@ body {
   }
   
   #about a:hover {
-<<<<<<< HEAD
-    background-color: rgba(0, 188, 212, 0.9); /* Slightly darker on hover */
-  }
-  
-  /* Responsive Layout */
-=======
     background-color: rgba(0, 188, 212, 0.9); 
   }
   
->>>>>>> d0a88cde240d152ff399859763691d2ab4f7ebd4
+  /* Responsive Layout */
+    background-color: rgba(0, 188, 212, 0.9); 
+  }
+  
   @media (min-width: 1024px) {
     #about .flex {
       flex-direction: row;
@@ -325,11 +303,7 @@ body {
       text-align: left;
     }
   }
-<<<<<<< HEAD
-  /* Services section styles */
-=======
   
->>>>>>> d0a88cde240d152ff399859763691d2ab4f7ebd4
 .services { 
   display: flex; 
   align-items: center; 
