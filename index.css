@@ -449,6 +449,9 @@ body {
   display: flex; 
   list-style: none; 
 } 
-
+.social-icons a {
+  text-decoration: none; /* Removes underline */
+  color: white; /* Ensures the icon color is white */
+}
   
   
