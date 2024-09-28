@@ -6,9 +6,6 @@
 
 ## 💻 Tech Stack
 - Front-End: HTML, CSS, JavaScript
-- Back-End: Node.js, Express.js
-- Database: MongoDB
-- Machine Learning: Python, SHA Algorithms
 
 🚀 Ready to take on new challenges! 🚀
 
