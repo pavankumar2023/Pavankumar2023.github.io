@@ -118,6 +118,7 @@ body {
   .container{
     color: black;
   }
+
   /* Project Section */
   #projects {
     background-color: #f8f9fa;
@@ -132,6 +133,8 @@ body {
   }
   
   .card {
+    border: 1px solid black; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
   }
   
@@ -163,6 +166,7 @@ body {
   }
   
   #internships h2 {
+    color: black;
     text-align: center;
     font-size: 2rem; 
     font-weight: bold; 
@@ -171,7 +175,7 @@ body {
   
   /* Card Styles for Internships */
   #internships .card {
-    border: 1px solid #ddd; 
+    border: 1px solid black; 
     border-radius: 0.5rem;
     transition: transform 0.2s; 
   }
