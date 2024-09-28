@@ -44,30 +44,48 @@ body {
 .zoom-image:hover {
     transform: scale(1.1); 
 }
+.button-container {
+  position: relative; /* Ensure that the container is positioned */
+  z-index: 10; /* Set a higher z-index */
+}
   
-.hero .btn{
-    margin-top: 25px;
-    padding: 12px 20px;
-    font-size: 1.2rem;
-    border-radius: 30px;
-    transition: all 0.3s ease;
-    color: black;
-    background-color: rgb(42, 183, 199);
+.button-container .btn {
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
 }
 
-.hero .btn:hover {
-    background-color: #99b016;
-  }
+.button-container .btn-primary {
+  background-color: blue; /* Change to your desired color */
+  color: white;
+}
 
-.blinking {
-    animation: blink-animation 1s steps(5, start) infinite;
-  }
+.button-container .btn-primary:hover {
+  background-color: darkblue; /* Change to your desired hover color */
+}
+
+.button-container .btn-secondary {
+  background-color: gray; /* Change to your desired color */
+  color: white;
+}
+
+.button-container .btn-secondary:hover {
+  background-color: darkgray; /* Change to your desired hover color */
+}
   
-  @keyframes blink-animation {
-    to {
-      visibility: hidden;
+.blinking {
+    animation: blinking 1s infinite;
+}
+
+@keyframes blinking {
+    0%, 100% {
+        opacity: 1; /* Fully visible */
     }
-  }
+    50% {
+        opacity: 0; /* Invisible */
+    }
+}
   
   
 .navbar {
