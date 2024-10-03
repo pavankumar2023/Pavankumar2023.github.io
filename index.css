@@ -380,30 +380,27 @@ body {
 
 
 
-  /* Contact Section */
-  #contact {
-    background-color: #0cd4ef;
-    color: white;
-    padding: 60px 0;
-  }
-  
-  #contact h2 {
-    font-size: 2.5rem;
-    font-weight: 700;
-    margin-bottom: 50px;
-    color: rgb(252, 251, 251);
-  }
-  
-.form-control {
-    max-width: 400px; 
-    margin: 0 auto; 
+  .contact-item {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
 }
 
-.btn {
-    max-width: 400px; 
-    width: 100%; 
-    margin: 0 auto; 
+.contact-item:hover {
+  transform: translateY(-5px);
 }
+
+.contact-text a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.contact-text a:hover {
+  text-decoration: underline;
+}
+
   
   /* Footer Styles */
 .footer { 
