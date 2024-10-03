@@ -390,20 +390,14 @@ body {
   color: black;
   font-weight: bold;
   margin-top: 0px;
-  text-align: center;
-}
+    text-allign: center;
 
-
-.container  p{
-  color: black;
-  text-align: center;
 }
 
 .container p {
   color: black;
   margin-top: 50px;
-  text-align: center;
-
+  text-allign: center;
 }
 
 .contact-item:hover {
@@ -431,6 +425,7 @@ body {
 .custom-bg .contact-text a:hover {
   color: blueviolet; 
 }
+
 
 
   /* Footer Styles */
