@@ -388,14 +388,17 @@ body {
   color: black;
   font-weight: bold;
   margin-top: 0px;
-  text-align: center;
+    text-allign: center;
+
+<<<<<<< HEAD
+=======
 }
 
+>>>>>>> bade6367f625f0f5e3f14867fcd4907e3fca013d
 .container p {
   color: black;
   margin-top: 50px;
-  text-align: center;
-
+  text-allign: center;
 }
 
 .contact-item:hover {
@@ -432,6 +435,7 @@ body {
 .linkedinicon{
   color: black;
 }
+
 
 
   /* Footer Styles */
