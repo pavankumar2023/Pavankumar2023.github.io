@@ -317,10 +317,6 @@ body {
     background-color: rgba(0, 188, 212, 0.9); 
   }
   
-  /* Responsive Layout */
-    background-color: rgba(0, 188, 212, 0.9); 
-  }
-  
   @media (min-width: 1024px) {
     #about .flex {
       flex-direction: row;
@@ -394,6 +390,12 @@ body {
   color: black;
   font-weight: bold;
   margin-top: 0px;
+  text-align: center;
+}
+
+
+.container  p{
+  color: black;
   text-align: center;
 }
 
