@@ -388,7 +388,7 @@ body {
   color: black;
   font-weight: bold;
   margin-top: 0px;
-    text-allign: center;
+    text-align: center;
 }
 
 
@@ -396,7 +396,7 @@ body {
 .container p {
   color: black;
   margin-top: 50px;
-  text-allign: center;
+  text-align: center;
 }
 
 .contact-item:hover {
