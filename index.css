@@ -378,11 +378,10 @@ body {
   color: #fff; 
 } 
 
-
-
-
+/* Contact section */
 .contact-item {
   margin-top: 50px;
+  .contact-item {
   border-radius: 8px;
   padding: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -401,6 +400,11 @@ body {
   color: black;
   text-align: center;
   margin-top: 50px;
+}
+
+.contact-item:hover {
+  transform: translateY(-5px);
+}
 }
 
 .contact-item:hover {
@@ -429,7 +433,6 @@ body {
   
 }
 
-  
   /* Footer Styles */
 .footer { 
   background-color: #eaf0f4; 
