@@ -379,10 +379,8 @@ body {
   margin-top: 50px;
   border-radius: 8px;
   padding: 20px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s;
   border: 1px solid black; 
-  background-color: rgb(231, 233, 248);
   text-align: center; /* Center align all text within this item */
 }
 
@@ -390,12 +388,6 @@ body {
   color: black;
   font-weight: bold;
   margin-top: 0px;
-  text-align: center;
-}
-
-
-.container  p{
-  color: black;
   text-align: center;
 }
 
@@ -430,6 +422,15 @@ body {
 
 .custom-bg .contact-text a:hover {
   color: blueviolet; 
+}
+.contacticon{
+  color: black;
+}
+.phoneicon{
+  color: black;
+}
+.linkedinicon{
+  color: black;
 }
 
 
