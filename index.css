@@ -381,30 +381,27 @@ body {
 /* Contact section */
 .contact-item {
   margin-top: 50px;
-  .contact-item {
   border-radius: 8px;
   padding: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s;
   border: 1px solid black; 
   background-color: rgb(231, 233, 248);
+  text-align: center; /* Center align all text within this item */
 }
-.container  h2{
+
+.container h2 {
   color: black;
   font-weight: bold;
-  text-align: center;
   margin-top: 0px;
-}
-
-.container  p{
-  color: black;
   text-align: center;
-  margin-top: 50px;
 }
 
-.contact-item:hover {
-  transform: translateY(-5px);
-}
+.container p {
+  color: black;
+  margin-top: 50px;
+  text-align: center;
+
 }
 
 .contact-item:hover {
@@ -419,6 +416,7 @@ body {
 .contact-text a:hover {
   text-decoration: underline;
 }
+
 .custom-bg {
   background-color: #e2f6df; 
   color: white; 
@@ -426,12 +424,12 @@ body {
 
 .custom-bg .contact-text a {
   color: #050505; 
-  
 }
+
 .custom-bg .contact-text a:hover {
   color: blueviolet; 
-  
 }
+
 
   /* Footer Styles */
 .footer { 
