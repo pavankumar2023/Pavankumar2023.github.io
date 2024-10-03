@@ -127,7 +127,7 @@ body {
   
   #projects h2 {
     font-size: 2.5rem;
-    font-weight: 700;
+    font-weight: 1000;
     margin-bottom: 50px;
     color: #343a40;
   }
@@ -157,6 +157,25 @@ body {
     object-fit: cover;
     border-bottom: 1px solid #ddd;
   }
+  .button-container .btn {
+    padding: 15px 30px; 
+    font-size: 1.2em;  
+    border-radius: 5px; 
+    width: 30%;
+
+}
+
+.button-container .btn-secondary {
+    padding: 15px 35px; 
+    font-size: 1.2em;  
+    width: 30%;
+  
+}
+
+.button-container .btn:hover {
+    opacity: 0.9; 
+}
+
 
 
   /* Internships Section Styles */
