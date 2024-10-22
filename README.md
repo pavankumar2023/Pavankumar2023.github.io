@@ -10,7 +10,7 @@
 🚀 Ready to take on new challenges! 🚀
 
 🤝 **Let’s Connect!**
-- [Email me](mailto:Pavanpnk10@gmail.com)
+- [Email me](mailto:dhadigepavankumar@gmail.com)
 - [Connect on LinkedIn](https://www.linkedin.com/in/pavan-kumar-a54748195/)
 
 🎯 Aim High, Achieve More! 🎯
