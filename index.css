@@ -2,40 +2,44 @@
 html, body {
   max-width: 100%;
   overflow-x: hidden;
+  background-color: white;
 }
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
+    background-color: white;
   }
   
   .hero {
-    
-    height: 100vh;
+    background-color: white;
+    height: 95vh;
     background-position: center;
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 0px;
 
   }
   
   .hero h1 {
-    font-size: 4rem;
-    font-weight: 700;
-    color: rgb(208, 208, 227);
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: rgb(110, 110, 240);
+    margin-top: -100px;
     text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
 
   }
+
   
+
+
   .hero p {
     color: rgb(208, 208, 227);
-
-    font-size: 1.5rem;
+    font-size: 1rem;
     margin-top: 15px;
-    font-weight: 300;
-    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.6);
   }
 .zoom-image {
     transition: transform 0.3s ease; 
@@ -44,30 +48,42 @@ body {
 .zoom-image:hover {
     transform: scale(1.1); 
 }
+
 .button-container {
   position: relative; /* Ensure that the container is positioned */
   z-index: 10; /* Set a higher z-index */
+  margin-top: -25px;
+  
+  
 }
   
 .button-container .btn {
-  padding: 10px 20px;
   text-decoration: none;
-  border-radius: 5px;
   transition: background-color 0.3s;
 }
 
-.button-container .btn-primary {
-  background-color: blue; /* Change to your desired color */
-  color: white;
+.button-container .btn.btn-primary {
+  background-color: blue !important;
+  color: rgb(232, 239, 28) !important;
+  padding: 5px 15px !important;
+  font-size: 14px !important;
+  width: auto !important;
 }
 
+
 .button-container .btn-primary:hover {
-  background-color: darkblue; /* Change to your desired hover color */
+  background-color: darkblue !important;
 }
 
 .button-container .btn-secondary {
   background-color: gray; /* Change to your desired color */
   color: white;
+  font-size: 14px !important;
+  padding: 5px 15px !important;
+  width: auto !important;
+
+
+
 }
 
 .button-container .btn-secondary:hover {
@@ -107,13 +123,13 @@ body {
   }
   
   .nav-link {
-    color: #ffffff !important;
-    font-size: 1.2rem;
+    color: #a8b0ec !important;
+    font-size: 1rem;
     padding: 10px 15px;
-  }
+}
   
   .nav-link:hover {
-    color: #17a2b8 !important;
+    color: #132dee !important;
   }
   .container{
     color: black;
@@ -121,18 +137,20 @@ body {
 
   /* Project Section */
   #projects {
-    background-color: #f8f9fa;
-    padding: 60px 0;
+    margin-top: -90px;
+    background-color: black;
   }
   
   #projects h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 1000;
-    margin-bottom: 50px;
+    margin-bottom: 250px;
     color: #343a40;
+
   }
   
   .card {
+    box-sizing: 50%;
     border: 1px solid black; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
@@ -252,7 +270,7 @@ body {
 #about {
     background-color: #020303;
     padding: 3rem 0;
-    color: #ffffff;
+    color: #f02727;
   }
   
   h2 {
@@ -352,7 +370,9 @@ body {
   justify-content: center; 
   flex-direction: column; 
   margin: 4.8rem 0; 
-  padding: 0 5rem; 
+  padding: 0 5rem;
+  font-size: 2.0rem;
+  color: yellow;
 } 
 
 .my-row { 
